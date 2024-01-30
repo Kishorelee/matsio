@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.contact-nav {
+  background-color: rgb(44, 34, 154);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between; /* Add space between list1 and list2 */
+}
+
+.list1,
+.list2 {
+  display: flex;
+}
+
+.list1 li {
+  margin-bottom: 5px; /* Adjust the spacing between items if needed */
+}
+
+.list2 li {
+  margin-left: 10px; /* Adjust the spacing between items if needed */
+}
+
+.list2 li:first-child {
+  margin-left: 0; /* Remove left margin for the first item in list2 */
+}
+
+.contact-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.contact-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main-nav {
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 20px; /* Adjust the spacing between items if needed */
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.section {
+  background-image: url('/frond_end_page/images/6674908_3386851.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  display: flex; /* Add flex display property */
+}
+
+.section-content {
+  flex: 1; /* Take up remaining space */
+  max-width: 600px;
+  margin-top: 90px;
+  text-align: left;
+}
+
+.section-content h2 {
+  width: 50%;
+  font-size: 30px;
+}
+
+.section-content button {
+  display: block; /* Change to block */
+  background-color: rgb(41, 176, 221);
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px; /* Add margin for spacing between button and checkbox */
+}
+
+.section-form {
+  flex: 1; /* Take up remaining space */
+  max-width: 400px;
+  margin: 0 auto;
+  color: black;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+#agree {
+  margin-right: 5px;
+}
+
+button {
+  display: block;
+  background-color: blue;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.article-section {
+  background-color: #f9f9f9;
+  padding: 40px;
+  display: flex; /* Use flexbox */
+  justify-content: space-around; /* Distribute items with space around them */
+  align-items: stretch; /* Stretch items to the same height */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.article {
+  flex: 1; /* Each article takes up equal width */
+  margin: 0 10px;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-title {
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.article-description {
+  color: #555;
+}
